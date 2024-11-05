@@ -51,7 +51,8 @@ label {
     display: block;
     margin-top: 10px;
 }
-input[type="submit"] {
+
+button1[type="submit"] {
     width: 30px;
     height: 30px;
     background-color: #ffffff;
