@@ -33,8 +33,8 @@ function showcontent(value) {
     document.getElementById('content' + number).classList.add('active');
 }
 
-const button1 = document.getElementById('button1');
+const button = document.getElementById('button1');
 
-    button1.addEventListener('click', () => {
-        button1.style.backgroundColor = '#3e8e41'; // Warna hijau lebih gelap saat diklik
+    button.addEventListener('click', () => {
+        button.style.backgroundColor = '#000000'; // Warna putih jadi hitam saat di klik
     });
