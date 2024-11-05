@@ -79,3 +79,19 @@ button:hover {
     background-color: #e9ecef;
     border-radius: 5px;
 }
+.round-button {
+    width: 40px; /* Ukuran lebar tombol */
+    height: 40px; /* Ukuran tinggi tombol */
+    background-color: #4CAF50; /* Warna latar belakang */
+    border: none; /* Hilangkan border */
+    border-radius: 50%; /* Bikin tombol bulat */
+    color: white; /* Warna teks */
+    text-align: center; /* Posisikan teks di tengah */
+    line-height: 40px; /* Atur tinggi teks */
+    cursor: pointer; /* Ganti kursor saat di-hover */
+    font-size: 16px; /* Ukuran teks */
+}
+
+.round-button:hover {
+    background-color: #45a049; /* Warna saat di-hover */
+}
