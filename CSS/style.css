@@ -52,7 +52,7 @@ label {
     margin-top: 10px;
 }
 
-button[type="submit"] {
+input[type="submit"] {
     width: 30px;
     height: 30px;
     background-color: #ffffff;
