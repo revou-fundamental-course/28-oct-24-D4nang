@@ -79,17 +79,38 @@ button:hover {
     background-color: #e9ecef;
     border-radius: 5px;
 }
+
 .round-button {
-    width: 40px; /* Ukuran lebar tombol */
-    height: 40px; /* Ukuran tinggi tombol */
-    background-color: #4CAF50; /* Warna latar belakang */
-    border: none; /* Hilangkan border */
-    border-radius: 50%; /* Bikin tombol bulat */
-    color: white; /* Warna teks */
-    text-align: center; /* Posisikan teks di tengah */
-    line-height: 40px; /* Atur tinggi teks */
-    cursor: pointer; /* Ganti kursor saat di-hover */
-    font-size: 16px; /* Ukuran teks */
+    width: 40px;
+    height: 40px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.round-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s;
+}
+
+.round-button:active::after {
+    width: 20px; /* Ukuran lingkaran hitam di tengah */
+    height: 20px; /* Ukuran lingkaran hitam di tengah */
 }
 
 .round-button:hover {
