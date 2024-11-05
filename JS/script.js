@@ -8,13 +8,13 @@ function calculateBMI() {
         let category;
 
         if (bmi < 18.5) {
-            category = 'Kekurangan berat badan';
+            category = 'Kamu kekurangan berat badan';
         } else if (bmi >= 18.5 && bmi < 24.9) {
-            category = 'Normal';
+            category = 'Selamat! kamu udah ideal!';
         } else if (bmi >= 25 && bmi < 29.9) {
-            category = 'Kelebihan berat badan';
+            category = 'Kamu kelebihan berat badan';
         } else {
-            category = 'Obesitas';
+            category = 'Kamu obesitas';
         }
 
         document.getElementById('result').innerHTML = `BMI kamu: ${bmi} (${category})`;
