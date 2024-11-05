@@ -52,23 +52,17 @@ label {
     margin-top: 10px;
 }
 
-input[type="submit"] {
-    width: 30px;
-    height: 30px;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 50%;
-    color: black;
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer;
-    font-size: 14px;
-    position: relative;
-    overflow: hidden;
-    margin: 5px;
-    pointer-events:all;
-    display: inline-block;
-    transition: background-color 0.3s ease;
+select {
+    appearance: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-image: url(arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
 }
 input[type="number"] {
     width: calc(100% - 22px);
@@ -97,13 +91,4 @@ button:hover {
     padding: 10px;
     background-color: #e9ecef;
     border-radius: 5px;
-}
-
-.round-button:active::after {
-    width: 20px; /* Ukuran lingkaran hitam di tengah */
-    height: 20px; /* Ukuran lingkaran hitam di tengah */
-}
-
-.round-button:hover {
-    background-color: #45a049; /* Warna saat di-hover */
 }
