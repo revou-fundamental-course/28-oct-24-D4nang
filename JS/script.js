@@ -32,3 +32,9 @@ function showcontent(value) {
     // Tampilkan hanya konten yang dipilih
     document.getElementById('content' + number).classList.add('active');
 }
+
+const input = document.getElementById('myInput');
+
+    input.addEventListener('click', () => {
+        input.style.backgroundColor = '#3e8e41'; // Warna hijau lebih gelap saat diklik
+    });

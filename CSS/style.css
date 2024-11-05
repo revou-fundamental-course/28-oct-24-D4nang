@@ -67,6 +67,7 @@ input[type="submit"] {
     margin: 5px;
     pointer-events:all;
     display: inline-block;
+    transition: background-color 0.3s ease;
 }
 input[type="number"] {
     width: calc(100% - 22px);
