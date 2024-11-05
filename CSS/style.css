@@ -89,7 +89,7 @@ button:hover {
     text-align: center;
     padding: 20px;
     border-radius: 5px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: #ffffff;
+    border: 1px transparent #ddd;
     font-size:large;
 }
