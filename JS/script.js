@@ -22,3 +22,13 @@ function calculateBMI() {
         alert('Masukkan nilai tinggi dan berat badan yang valid');
     }
 }
+
+function showContent(number) {
+    // Sembunyikan semua konten
+    for (let i = 1; i <= 3; i++) {
+        document.getElementById('content' + i).classList.remove('active');
+    }
+
+    // Tampilkan hanya konten yang dipilih
+    document.getElementById('content' + number).classList.add('active');
+}
