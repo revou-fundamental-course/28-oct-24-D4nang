@@ -17,7 +17,7 @@ function calculateBMI() {
             category = 'Obesitas';
         }
 
-        document.getElementById('result').innerHTML = `BMI Anda: ${bmi} (${category})`;
+        document.getElementById('result').innerHTML = `BMI kamu: ${bmi} (${category})`;
     } else {
         alert('Masukkan nilai tinggi dan berat badan yang valid');
     }
