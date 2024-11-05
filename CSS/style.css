@@ -9,7 +9,7 @@ header {
     background-color: #42a145;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 10px;
 }
 nav {
     background-color: #333;
@@ -34,8 +34,8 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
+    padding: 5px;
+    position: static;
     bottom: 0;
     width: 100%;
 }
