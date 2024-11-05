@@ -53,14 +53,13 @@ label {
 }
 
 select {
-    appearance: menulist-button;
+    appearance: auto;
   -webkit-appearance: none;
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 5px 10px;
   font-size: 12px;
   border-radius: 4px;
-  background-image: url(arrow-down.svg);
   background-repeat: no-repeat;
   background-position: right 10px center;
 }
