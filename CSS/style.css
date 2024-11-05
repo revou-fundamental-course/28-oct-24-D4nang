@@ -53,13 +53,14 @@ label {
 }
 
 select {
-    appearance: auto;
+    appearance: none;
   -webkit-appearance: none;
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 5px 10px;
-  font-size: 12px;
+  padding: 10px 20px;
+  font-size: 16px;
   border-radius: 4px;
+  background-image: url(arrow-down.svg);
   background-repeat: no-repeat;
   background-position: right 10px center;
 }
@@ -88,8 +89,6 @@ button:hover {
     margin-top: 20px;
     text-align: center;
     padding: 20px;
+    background-color: #e9ecef;
     border-radius: 5px;
-    background-color: #ffffff;
-    border: 1px transparent #ddd;
-    font-size:large;
 }
