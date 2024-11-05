@@ -23,7 +23,7 @@ function calculateBMI() {
     }
 }
 
-function showContent(value) {
+function showcontent(value) {
     // Sembunyikan semua konten
     for (let i = 1; i <= 3; i++) {
         document.getElementById('content' + i).classList.remove('active');
