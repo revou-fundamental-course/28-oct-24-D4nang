@@ -26,7 +26,19 @@
             <h2>Kalkulator BMI</h2>
             <p>Apakah berat badan anda sudah keterlaluan? Mari hitung dengan kalkulator BMI berikut.</p>
             <br>
-            <button></button>
+            <div class="container">
+                <h1>Kalkulator BMI</h1>
+                <form id="bmiForm">
+                    <label for="height">Tinggi Badan (cm):</label>
+                    <input type="number" id="height" placeholder="Masukkan tinggi badan" required>
+
+                    <label for="weight">Berat Badan (kg):</label>
+                    <input type="number" id="weight" placeholder="Masukkan berat badan" required>
+
+            <button type="button" onclick="calculateBMI()">Hitung BMI</button>
+                </form>
+                <div id="result" class="result"></div>
+            </div>
         </section>
 
         <section id="about">
