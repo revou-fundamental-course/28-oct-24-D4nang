@@ -118,9 +118,10 @@ button:hover {
 }
 
 #resultBox.success {
-    background-color: #d4edda;
-    color: #155724;
+    background-color: #ffffff;
+    color: #000000;
     border-color: #c3e6cb;
+    align-content: center;
 }
 
 #resultBox.error {
