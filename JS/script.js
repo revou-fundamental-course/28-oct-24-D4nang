@@ -8,7 +8,6 @@ function calculateBMI() {
 // 2. Menghitung BMI
     if (height > 0 && weight > 0) {
         const bmi = (weight / (height * height)).toFixed(2);
-        <br></br>
         let category;
 
         if (bmi < 18.5) {
