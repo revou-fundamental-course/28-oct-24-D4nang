@@ -31,6 +31,7 @@ function calculateBMI() {
         document.getElementById('result').innerHTML = `${suggest}`;
         resultBox.classList.remove('error');
         resultBox.classList.add('success');
+        
     } else {
         resultBox.innerText = 'Yang bener aja? Kosong dong?';
         resultBox.classList.remove('success');
