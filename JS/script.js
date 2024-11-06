@@ -26,7 +26,7 @@ function calculateBMI() {
         }
 // 3. Validasi dan Kalkulasi Hasil
         resultBox.innerBox = `${bmi}`;
-        document.getElementById('category').innerBox = `${category}`;
+        document.getElementById('category').innerText = `${category}`;
         document.getElementById('result').innerHTML = `Saran : ${suggest}`;
         resultBox.classList.remove('error');
         resultBox.classList.add('success');
