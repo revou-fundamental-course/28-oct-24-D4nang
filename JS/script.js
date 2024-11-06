@@ -20,8 +20,8 @@ function calculateBMI() {
             category = 'Obesitas';
         }
 // 3. Validasi dan Kalkulasi Hasil
-        resultBox.innerText = `Hasil: ${bmi}`;
-        resultBox.classList.add(${category});
+        resultBox.innerText = `Hasil: ${bmi} 
+        (${category})`;
         resultBox.classList.remove('error');
         resultBox.classList.add('success');
     } else {
