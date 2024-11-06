@@ -64,7 +64,7 @@ select {
   padding: 5px 10px;
   font-size: 12px;
   border-radius: 4px;
-  background-image: url(arrow-down.svg);
+  background-image: triangle_down;
   background-repeat: no-repeat;
   background-position: right 10px center;
 }
@@ -103,6 +103,7 @@ button:hover {
     background-color: #f9f9f9;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, color 0.3s;
+    font-family: Georgia, Courier New;
 }
 
 #resultBox.success {
@@ -125,6 +126,13 @@ button:hover {
     text-align: justify;
 }
 
-#text.category {
-    font-size:20px;
-}
+.triangle_down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #2f2f2f;
+    font-size: 0;
+    line-height: 0;
+    float: left;
+  }
