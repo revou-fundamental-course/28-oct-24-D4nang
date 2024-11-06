@@ -19,7 +19,7 @@ function calculateBMI() {
             category = 'Obesitas';
         }
 // 3. Validasi dan Kalkulasi Hasil
-        document.getElementById('resultBox') = bmi;
+        document.getElementById('resultBox') = ${bmi};
     } else {
         alert('Yang bener aja? Kosong dong?');
     }
