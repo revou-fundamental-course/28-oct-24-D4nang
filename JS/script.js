@@ -1,4 +1,5 @@
 // Buat Input Fungsinya //
+// 1. Buat Menghitung BMI nya
 function calculateBMI() {
     const height = document.getElementById('height').value / 100; // Konversi ke meter
     const weight = document.getElementById('weight').value;
@@ -19,7 +20,7 @@ function calculateBMI() {
 
         document.getElementById('result').innerHTML = `BMI kamu: ${bmi} (${category})`;
     } else {
-        alert('Masukkan nilai tinggi dan berat badan yang valid');
+        alert('Yang bener aja? Kosong dong?');
     }
 }
 
