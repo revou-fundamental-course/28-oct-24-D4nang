@@ -11,16 +11,20 @@ function calculateBMI() {
         let category;
 
         if (bmi < 18.5) {
-            resultBox.classList.add('Kekurangan Berat badan');
+            category = 'Kekurangan Berat Badan';
+            resultBox.classList.add(${category});
         } else if (bmi >= 18.5 && bmi < 24.9) {
-            resultBox.classList.add('Berat Badan Ideal');
+            category = 'Berat Badan Ideal';
+            resultBox.classList.add(${category});
         } else if (bmi >= 25 && bmi < 29.9) {
-            resultBox.classList.add('Kelebihan Berat badan');
+            category = 'Kelebihan Berat Badan';
+            resultBox.classList.add(${category});;
         } else {
-            resultBox.classList.add('Obesitas');
+            category = 'Obesitas';
+            resultBox.classList.add(${category});;
         }
 // 3. Validasi dan Kalkulasi Hasil
-        resultBox.innerText = `Hasil: ${bmi} (${category})`;
+        resultBox.innerText = `Hasil: ${bmi}`;
         resultBox.classList.remove('error');
         resultBox.classList.add('success');
     } else {
