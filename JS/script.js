@@ -18,7 +18,7 @@ function calculateBMI() {
             category = 'Kamu obesitas';
         }
 
-        document.getElementById('result').innerHTML = `${bmi} (${category})`;
+        document.getElementById('result').innerHTML = `BMI Kamu : ${bmi} (${category})`;
     } else {
         alert('Yang bener aja? Kosong dong?');
     }
