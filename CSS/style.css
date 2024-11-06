@@ -64,7 +64,7 @@ select {
   padding: 5px 10px;
   font-size: 12px;
   border-radius: 4px;
-  background-image: url('PNG\arrow_down.png');
+  background-image: url('arrow_down.png');
   background-repeat: no-repeat;
   background-position: right 10px center;
 }
