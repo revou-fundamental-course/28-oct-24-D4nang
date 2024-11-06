@@ -24,4 +24,6 @@ function calculateBMI() {
     }
 }
 
-function rese
+function resetForm() {
+    const document.getElementById('bmiForm').reset();
+}
