@@ -23,6 +23,5 @@ function calculateBMI() {
         alert('Yang bener aja? Kosong dong?');
     }
 }
-function resetBMI() {
-    document.getElementById('resetBMI').reset();
-}
+
+function rese
