@@ -11,7 +11,7 @@ function calculateBMI() {
         let category;
 
         if (bmi < 18.5) {
-            category = 'Kekurangan Berat Badan';
+            resultBox.classList.add('obese');
         } else if (bmi >= 18.5 && bmi < 24.9) {
             category = 'Berat Badan Ideal';
         } else if (bmi >= 25 && bmi < 29.9) {
