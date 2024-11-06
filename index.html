@@ -28,8 +28,8 @@
             <p>Apakah berat badan anda sudah keterlaluan? Mari hitung dengan kalkulator BMI berikut.</p>
                 <p>Apa jenis kelaminmu? (*tekan kotak berikut)</p>
                 <select>
-                    <option value="1">Pria</option>
-                    <option value="2">Wanita</option>
+                    <option value="1" class="jenisKelamin">Pria</option>
+                    <option value="2" class="jenisKelamin">Wanita</option>
                 </select>
 
                 <form id="bmiForm">
@@ -43,9 +43,10 @@
                     <button type="button" onclick="calculateBMI()">Hitung BMI</button>
                     <button type="button" onclick="resetForm()">Reset</button>
 
+                    <input type="text" id="resultBox" readonly placeholder="Hasilnya :">
+
                 </form>
-                <div id="result" class="result"></div>
-                <div id="reset" class="reset"></div>
+
             </div>
         </section>
 
