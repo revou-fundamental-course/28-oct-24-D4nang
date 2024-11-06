@@ -25,7 +25,7 @@ function calculateBMI() {
             suggest = 'Jangan khawatir, Anda bisa mengatasinya! Konsultasi dengan dokter untuk mendapatkan program penurunan berat badan yang tepat. Atur pola makan dengan mengurangi porsi dan memilih makanan sehat seperti buah, sayur, dan protein. Rajin olahraga, baik kardio maupun kekuatan. Istirahat yang cukup dan kelola stres dengan baik juga penting. Ingat, penurunan berat badan butuh proses. Jangan menyerah dan jangan ragu untuk meminta bantuan profesional jika diperlukan. Dengan konsisten menerapkan gaya hidup sehat, Anda pasti bisa mencapai berat badan ideal.';
         }
 // 3. Validasi dan Kalkulasi Hasil
-        resultBox.innerBox = `${bmi}`;
+        resultBox.innerText = `${bmi}`;
         document.getElementById('category').innerText = `${category}`;
         document.getElementById('result').innerHTML = `Saran : ${suggest}`;
         resultBox.classList.remove('error');
