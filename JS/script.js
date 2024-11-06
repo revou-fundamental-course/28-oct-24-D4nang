@@ -3,10 +3,12 @@
 function calculateBMI() {
     const height = document.getElementById('height').value / 100; // Konversi ke meter
     const weight = document.getElementById('weight').value;
+    const result = document.getElementById('resultBox');
 
 // 2. Menghitung BMI
     if (height > 0 && weight > 0) {
         const bmi = (weight / (height * height)).toFixed(2);
+        <br></br>
         let category;
 
         if (bmi < 18.5) {
@@ -19,9 +21,13 @@ function calculateBMI() {
             category = 'Obesitas';
         }
 // 3. Validasi dan Kalkulasi Hasil
-        document.getElementById('resultBox') = ${bmi};
+        resultBox.innerText = `Hasil: ${result} ${category}`;
+        resultBox.classList.remove('error');
+        resultBox.classList.add('success');
     } else {
-        alert('Yang bener aja? Kosong dong?');
+        resultBox.innerText = 'Yang bener aja? Kosong dong?';
+        resultBox.classList.remove('success');
+        resultBox.classList.add('error');
     }
 }
 
