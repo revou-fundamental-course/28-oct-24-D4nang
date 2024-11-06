@@ -3,6 +3,7 @@
 function calculateBMI() {
     const height = document.getElementById('height').value / 100; // Konversi ke meter
     const weight = document.getElementById('weight').value;
+
 // 2. Menghitung BMI
     if (height > 0 && weight > 0) {
         const bmi = (weight / (height * height)).toFixed(2);
@@ -25,5 +26,5 @@ function calculateBMI() {
 }
 
 function resetForm() {
-    const document.getElementById('bmiForm').reset();
+    document.getElementById('bmiForm').reset();
 }
